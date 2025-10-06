@@ -199,6 +199,9 @@ function page() {
 
 
   return (
+    <Suspense fallback={<div>Loading...</div>}>
+
+ 
     <div>
       <h1>Upload your Panels</h1>
 
@@ -284,6 +287,7 @@ function page() {
       </ul>
       
     </div>
+       </Suspense>
   )
 }
 
