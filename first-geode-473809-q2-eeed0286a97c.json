@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "first-geode-473809-q2",
+  "private_key_id": "eeed0286a97ceaebd9c73a976b6fdf514ea58e1d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDV2Q/6e0XbUAh3\nti6DRp1p9U/tbCFJl5B2e86Y4dG3UOyJXcSuYNt7Mt/Bry0MojH1g0cXhLPA4+ff\nCM+i8/5ByyD0AskN0UQ+zIFnChZdgrIQtLcoywv2IwpotgdrqgQU21ytE5OdXIaS\nhSWt/vdh1kplqSV948mbD70HfolLBTtHc6oFFfByZ5T/pqV/6df9xTnRiWH5qja5\nsqRgzFxSQ+Go2unqG65MUuo5p7vHuV5sMLTtbVc/V1TJ4n0nm2dRpBQXwEhQNwRM\nVEzwO+RRR7LwRIow48lnLq8XIymyeoj+mqJygttC9dfKgdRLgcpxn4qp7mlfghux\n/YpD+X8HAgMBAAECggEABQ3tV8FEJGve112B+e5YWCHJMtZkbwXbD0Hb3zcvKsMJ\n5DFILcryRRYtvbkzOmI3BhOFQaQMT5nTaC0gIzzbHJj9fWb3c5EnqMhSoqnVX35w\nUP7EeX1bGgU4AMOUp1HMaOXKafjVe1mtgJcPDe7B0BkthvuZfEE/CaA0mpG+EvzQ\nm1+Ueie9GmXJZ5ju6BSxWhTkcjIPebgPkA7nW4y6ICrn7y1yYkQl61olcXXSu3GY\nMgOWZs4mcoWAOW01gkBS95w6HvkQMIdFEMaX+NFrYJ6ykikl4Dpj+a8Ve+wqfwxb\nnhiPBjCFDv34PC7dBb3IFzw/iSKBB2wx6AsytCot6QKBgQDqtgNBiRChusAb1/pf\n3ZcspcFtC6je0bfyTkIUWhXJpCSkG9IVHlNaxtrJzzwfoxoTThw5KAexWQf7Pa6C\n5wdPdYg+ncYXGaNJGmcOEsTVFLlEU6QG9OOHxAzoXHTB0R7sjz+C3TYYEsUDdGQz\nYD38QfQf8Et/hkcblFagqRTM9QKBgQDpPpvl93CwXkMwNVWWnO9v4ngPsSKCM20u\nFr7Us+ZjmKHJBfKXsb9fAee3Xs69JwwZb8IcgwiPeju5lI9hokeJvYCGxqGU7+6H\nygeQmswj43but8cDldza/lmb7HwYWdy9lC57Lui7/0RLI4cJGmYLKtIgny/cJLiM\nuCkFJROeiwKBgQDed2KirW3sPXx1Z8NTNk9h7EJoP1Lyz8kQjAiqDbD1DPYF7rCz\nf6j2M+GQwzJzsj626aRqsHyKJp8gDhjozl3pfLeE0jq+Dnjsg3AGsNeMODZagwTH\n6zn2p2asn2Wzh6lOA4DpYw8wximi2qFW6PQXs9PWqgaFexrPE00AvwKOOQKBgQDL\ngJDMyGNNvjCo8x/F1Q8jc1iFeGs/ZlcwCzBcrMmqxBUEK2hJ6g+qeSMO3m1Ko7Lu\nzo9yCPGDHYbWmEOxT8FS8EAfV1bLd7uKRj7rb+QEvAWcqkO9YRfdCmZsoJx1MpJh\n5dPYLklpHYMce9bpnlrCC45iYAGF9ZP/Uv6XOo4vmQKBgGYShsPSAmE4LItZDUCq\nRwooGTLbXLJxF03g0WT0p0MGl2WND9rLjuSUkNElr5MPRJb5BXF+fTa70AgedoDJ\nTK02SCEMSV0aG7yWo/MUImfGh7s3UwHnkPULs+vFu5B7NUrZLCCgdfOAxvep8p0u\nGGvkpaIEmjvN3G9CjuGf7ame\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-elastic-animation-ai@first-geode-473809-q2.iam.gserviceaccount.com",
+  "client_id": "111265129140662154486",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-elastic-animation-ai%40first-geode-473809-q2.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
