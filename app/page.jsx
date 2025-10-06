@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, Suspense } from 'react'
 import { useRouter } from 'next/navigation';
 
 function page() {
@@ -37,6 +37,8 @@ function page() {
 
   // read panel page
   return (
+    <Suspense fallback={<div>Loading...</div>}>
+   
     <div>
       <h1>Uploaded Books</h1>
       <ul>
@@ -56,6 +58,7 @@ function page() {
         ))}
       </ul>
     </div>
+     </Suspense>
   )
 }
 

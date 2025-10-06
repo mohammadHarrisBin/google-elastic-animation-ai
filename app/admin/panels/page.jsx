@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react'
+// ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/admin/panels". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+import { Suspense } from 'react';
 import { useSearchParams } from "next/navigation";
 
 // import { Client } from '@elastic/elasticsearch';
