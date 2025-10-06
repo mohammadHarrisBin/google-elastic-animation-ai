@@ -128,7 +128,7 @@ export async function POST(req) {
       return {
         index: {
           _index: "comic-panels",
-          _id: `${doc.book_id}-${doc.panel_number}`,
+          _id: `${doc.book_id}-${doc.panel_number}-${doc.chapter_number}`,
         },
       };
     },
