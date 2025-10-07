@@ -1,3 +1,5 @@
+<img width="200" height="200" alt="voxa" src="https://github.com/user-attachments/assets/c96d762d-bea8-4a08-ba5d-f0f55f8738db" />
+
 # 📚 Voxa — A Hackathon Story
 
 > *The tale of Harris, his glasses, and an AI-powered comic finder that nobody believed in...*
