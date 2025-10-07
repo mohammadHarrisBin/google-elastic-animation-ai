@@ -126,22 +126,6 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🧮 Technical Note
-
-Voxa's AI text recognition can be modeled as a mapping:
-
-$$f: I \rightarrow T$$
-
-where $I$ represents an image panel and $T$ represents extracted text data.
-
-Future plans include semantic embedding search:
-
-$$\text{similarity}(t_1, t_2) = \frac{t_1 \cdot t_2}{|t_1||t_2|}$$
-
-to find related dialogue scenes beyond simple keyword matching.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
