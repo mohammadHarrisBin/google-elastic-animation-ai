@@ -42,8 +42,8 @@ I've always loved reading manhwa and comics, but it was hard to remember every s
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/voxa.git
-cd voxa
+git clone https://github.com/mohammadHarrisBin/google-elastic-animation-ai.git
+cd google-elastic-animation-ai
 ```
 
 ### 2️⃣ Install Dependencies
