@@ -404,25 +404,25 @@ export default function AdminPage() {
               </div>
             ) : (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                {books.map((book) => (
+                { books && books.map((book) => (
                   <div
                     key={book._id}
                     className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group"
                   >
                     <div className="relative">
                       <img
-                        src={book._source.image_art_base_64}
-                        alt={book._source.title}
+                        src={book._source?.image_art_base_64 || 'https://via.placeholder.com/400x600?text=No+Image'}
+                        alt={book._source?.title || 'No Title'}
                         className="w-full h-64 object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
                     </div>
                     <div className="p-5">
                       <h3 className="font-bold text-gray-900 mb-1 text-lg truncate">
-                        {book._source.title}
+                        {book._source?.title || 'No Title'}   
                       </h3>
-                      <p className="text-sm text-gray-600 mb-1 truncate">by {book._source.author}</p>
-                      <p className="text-xs text-gray-500 mb-4">{book._source.language.toUpperCase()}</p>
+                      <p className="text-sm text-gray-600 mb-1 truncate">by {book._source?.author || 'No Author'}</p>
+                      <p className="text-xs text-gray-500 mb-4">{book._source?.language?.toUpperCase() || 'No Language'}</p>
                       
                       <button
                         onClick={() => window.location.href = `/admin/panels?book_id=${book._id}`}
