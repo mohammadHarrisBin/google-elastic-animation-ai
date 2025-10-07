@@ -1,3 +1,8 @@
+
+<img width="300" height="300" alt="voxa" src="https://github.com/user-attachments/assets/8de5b95f-aef7-4952-b8f7-1afff23f79b9" />
+
+---
+
 # 📚 Voxa — Your AI-powered Comic Finder
 
 Voxa is an AI-powered web app that allows users to extract and highlight dialogue bubbles from comic and manhwa panels. Whether you're analyzing your favorite stories or just want to find that one memorable line — Voxa helps you locate it instantly.
