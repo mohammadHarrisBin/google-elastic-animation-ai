@@ -441,4 +441,4 @@ HARRIS'S TODO LIST (Post-Hackathon):
 
 **P.S.** If you're reading this at a hackathon right now, and everyone's doubting your idea... this README is for you. Build it anyway. 💪
 
-**P.P.S.** Node.js 18.17.0. Trust me on this one.
+**P.P.S.** Node.js >=v20. Trust me on this one.
