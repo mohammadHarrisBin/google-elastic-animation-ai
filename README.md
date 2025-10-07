@@ -306,7 +306,10 @@ cd google-elastic-animation-ai
 npm install
 
 # 3. Create .env.local file
-GOOGLE_APPLICATION_CREDENTIALS=./your-google-key.json
+GCP_PROJECT_ID=
+GCP_SERVICE_ACCOUNT_EMAIL=
+GCP_PRIVATE_KEY=
+
 ELASTIC_URL=your_elasticsearch_url
 ELASTIC_API_KEY=your_elasticsearch_key
 
