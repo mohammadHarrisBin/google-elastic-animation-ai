@@ -1,13 +1,14 @@
 import { NextResponse } from "next/server";
 import vision from "@google-cloud/vision";
 import textToSpeech from "@google-cloud/text-to-speech";
+import { getGCPCredentials } from "@/app/services/google";
 
 export async function POST(req) {
   try {
     const { imageBase64 } = await req.json();
 
     // Initialize the Vision API client
-    const client = new vision.ImageAnnotatorClient();
+    const client = new vision.ImageAnnotatorClient(getGCPCredentials());
 
     // Remove the data URI prefix if present (data:image/jpeg;base64,...)
     const base64Image = imageBase64.replace(/^data:image\/\w+;base64,/, "");
@@ -87,7 +88,7 @@ export async function POST(req) {
 
     // tts text to speech
     if (text) {
-      const clientTTS = new textToSpeech.TextToSpeechClient();
+      const clientTTS = new textToSpeech.TextToSpeechClient(getGCPCredentials());
       const requestTTS = {
         input: { text },
         voice: { languageCode: "en-US", ssmlGender: "NEUTRAL" },
